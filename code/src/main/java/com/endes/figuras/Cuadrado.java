@@ -1,22 +1,25 @@
 package com.endes.figuras;
 
 public class Cuadrado extends FiguraGeometrica {
-
-	public Cuadrado(String nombre, String color) {
+	double lado;
+	Punto esquina;
+	
+	public Cuadrado(String nombre, String color, double lado, Punto esquina) {
 		super(nombre, color);
-		// TODO Auto-generated constructor stub
+		this.lado = lado;
+		this.esquina = esquina;
 	}
 
 	@Override
 	public double area() {
-		// TODO Auto-generated method stub
-		return 0;
+		
+		return lado * lado;
 	}
 
 	@Override
 	public double perimetro() {
-		// TODO Auto-generated method stub
-		return 0;
+		
+		return 4 * lado;
 	}
     
 
