@@ -1,7 +1,5 @@
 package com.endes.figuras;
 
-
-
 public class Circulo{
 	String nombre;
 	String color; 
