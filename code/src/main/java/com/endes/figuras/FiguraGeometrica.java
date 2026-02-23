@@ -27,6 +27,9 @@ public abstract class FiguraGeometrica implements Comparable<FiguraGeometrica> {
      * @param nombre el nombre de la figura geométrica
      * @param color el color de la figura geométrica
      */
+    
+    
+    
     public FiguraGeometrica(String nombre, String color) {
         this.nombre = nombre;
         this.color = color;
