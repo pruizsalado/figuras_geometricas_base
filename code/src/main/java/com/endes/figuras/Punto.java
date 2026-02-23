@@ -1,11 +1,10 @@
 package com.endes.figuras;
 
 public class Punto {
-    // Atributos
     private double x;
     private double y;
 
-    // Constructor
+    // Constructor del punto
     public Punto(double x, double y) {
         this.x = x;
         this.y = y;
@@ -31,7 +30,6 @@ public class Punto {
 
     // Método para calcular la distancia entre dos puntos
     public double distancia(Punto otro) {
-        // Fórmula de distancia entre dos puntos (x1 - x2)² + (y1 - y2)²
         double dx = this.x - otro.getx();
         double dy = this.y - otro.gety();
         return Math.sqrt(dx * dx + dy * dy);
