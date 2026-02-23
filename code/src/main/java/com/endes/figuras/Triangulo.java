@@ -13,13 +13,10 @@ public class Triangulo extends FiguraGeometrica {
 
     @Override //metodo para el area
     public double area() {
-        return Math.abs(
-                vertice1.getX() * (vertice2.getY() - vertice3.getY()) +
-                        vertice2.getX() * (vertice3.getY() - vertice1.getY()) +
-                        vertice3.getX() * (vertice1.getY() - vertice2.getY())) / 2.0;
+        return Math.abs(vertice1.getX() * (vertice2.getY() - vertice3.getY()) + vertice2.getX() * (vertice3.getY() - vertice1.getY()) + vertice3.getX() * (vertice1.getY() - vertice2.getY())) / 2.0;
     }
 
-    @Override
+    @Override //metodo para el perimetro
     public double perimetro() {
         double lado1 = vertice1.distancia(vertice2);
         double lado2 = vertice2.distancia(vertice3);
@@ -27,7 +24,7 @@ public class Triangulo extends FiguraGeometrica {
         return lado1 + lado2 + lado3;
     }
 
-    @Override
+    @Override //metodo para trasladar 
     public void trasladar(double dx, double dy) {
         vertice1.setX(vertice1.getX() + dx);
         vertice1.setY(vertice1.getY() + dy);
@@ -40,9 +37,8 @@ public class Triangulo extends FiguraGeometrica {
     }
 
     @Override
-    public void rotar(double angulo) {
+    public void rotar(double angulo) { //metodo para rotar
         double r = Math.toRadians(angulo);
-
         rotarPunto(vertice1, r);
         rotarPunto(vertice2, r);
         rotarPunto(vertice3, r);
@@ -51,10 +47,8 @@ public class Triangulo extends FiguraGeometrica {
     private void rotarPunto(Punto p, double rad) {
         double x = p.getX();
         double y = p.getY();
-
         double nuevoX = x * Math.cos(rad) - y * Math.sin(rad);
         double nuevoY = x * Math.sin(rad) + y * Math.cos(rad);
-
         p.setX(nuevoX);
         p.setY(nuevoY);
     }
