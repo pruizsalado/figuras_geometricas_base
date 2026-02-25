@@ -1,6 +1,9 @@
 package com.endes.figuras;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Cuadrado
 
 
 =======

@@ -1,6 +1,7 @@
 package com.endes.figuras;
 
 public class Punto {
+<<<<<<< HEAD
     private double x;
     private double y;
 
@@ -35,3 +36,7 @@ public class Punto {
         return Math.sqrt(dx * dx + dy * dy);
     }
 }
+=======
+
+}
+>>>>>>> Cuadrado
