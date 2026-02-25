@@ -1,7 +1,6 @@
 package com.endes.figuras;
 
 public class Punto {
-<<<<<<< HEAD
     private double x;
     private double y;
 
@@ -12,31 +11,29 @@ public class Punto {
     }
 
     // Métodos getters
-    public double getx() {
+    public double getX() {
         return this.x;
     }
 
-    public double gety() {
+    public double getY() {
         return this.y;
     }
 
     // Métodos setters
-    public void setx(double x) {
+    public void setX(double x) {
         this.x = x;
     }
 
-    public void sety(double y) {
+    public void setY(double y) {
         this.y = y;
     }
 
     // Método para calcular la distancia entre dos puntos
     public double distancia(Punto otro) {
-        double dx = this.x - otro.getx();
-        double dy = this.y - otro.gety();
+        double dx = this.x - otro.getX();
+        double dy = this.y - otro.getY();
         return Math.sqrt(dx * dx + dy * dy);
     }
 }
-=======
 
-}
->>>>>>> Cuadrado
+

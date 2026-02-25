@@ -1,13 +1,5 @@
 package com.endes.figuras;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> Cuadrado
-
-
-=======
->>>>>>> Triangulo
 /**
  * Clase abstracta que representa una figura geométrica genérica.
  * Todas las figuras geométricas deben extender esta clase e implementar
@@ -36,6 +28,9 @@ public abstract class FiguraGeometrica implements Comparable<FiguraGeometrica> {
      * @param nombre el nombre de la figura geométrica
      * @param color el color de la figura geométrica
      */
+    
+    
+    
     public FiguraGeometrica(String nombre, String color) {
         this.nombre = nombre;
         this.color = color;

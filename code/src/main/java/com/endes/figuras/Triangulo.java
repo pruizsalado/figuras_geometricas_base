@@ -1,3 +1,6 @@
+package com.endes.figuras;
+
+
 public class Triangulo extends FiguraGeometrica {
 
     private Punto vertice1;
