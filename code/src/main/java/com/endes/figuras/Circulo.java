@@ -22,7 +22,6 @@ public double perimetro() {
 public double area() {
 	return 2 * Math.PI * radio;
 }
-
 public void rotar(double angulo) {
 	centro.rotar(angulo);
 }
