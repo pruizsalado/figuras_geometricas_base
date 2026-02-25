@@ -1,7 +1,10 @@
 package com.endes.figuras;
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> Triangulo
 /**
  * Clase abstracta que representa una figura geométrica genérica.
  * Todas las figuras geométricas deben extender esta clase e implementar
