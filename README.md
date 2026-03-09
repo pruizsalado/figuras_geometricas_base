@@ -1,6 +1,8 @@
 *TAREA DESARROLLO COLABORATIVO FIGURAS GEOMÉTRICAS*
 
 Integrantes:
+
+
 -Pablo Ruiz
 
 
